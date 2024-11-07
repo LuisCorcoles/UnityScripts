@@ -20,4 +20,11 @@ public class Personaje : MonoBehaviour
             Debug.Log(gameObject.name + " ha sido derrotado.");
         }
     }
+
+    public void GitHub (int rama)
+
+    {
+
+        Debug.Log(ramma + "Es mi rama principal")
+    }
 }
