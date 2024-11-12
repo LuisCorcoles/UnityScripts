@@ -27,4 +27,9 @@ public class Personaje : MonoBehaviour
 
         Debug.Log(ramma + "Es mi rama principal")
     }
+
+    public void Commit (int float){
+
+        Debug.Log("Hola")
+    }
 }
