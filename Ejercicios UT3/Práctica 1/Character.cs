@@ -4,6 +4,7 @@ public class Personaje : MonoBehaviour
 {
     public int vida = 100;
     public int daño = 10;
+    public int velocidad = 5;
 
     public virtual void Mover() { }
 
