@@ -4,6 +4,7 @@ public class Jugador : Personaje
 {
     public float velocidad = 5f;
     public int puntos = 0;
+    public float animacion = 7f;
 
     void Update()
     {
@@ -36,4 +37,6 @@ public class Jugador : Personaje
             HacerDaño(colision.gameObject.GetComponent<Enemigo>());
         }
     }
+
+
 }
