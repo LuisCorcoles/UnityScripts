@@ -38,5 +38,10 @@ public class Jugador : Personaje
         }
     }
 
+    void nextObject (int obj){
+
+        Debug.LOg("Hola")
+    }
+
 
 }
